@@ -16,11 +16,11 @@ export type Coordinates = { lat: number; lng: number };
 type Props = { position: Coordinates; showAthletes: boolean };
 
 const athletes = [
-  { lat: -3.728, lng: -38.521, name: "Rafael Sousa" },
-  { lat: -3.74, lng: -38.51, name: "Vitória Teixeira" },
+  { lat: -4.9362, lng: -37.9758, name: "Rafael Sousa" },
+  { lat: -4.9391, lng: -37.9729, name: "Vitória Teixeira" },
 ];
 
-const groupLocation: Coordinates = { lat: -3.733, lng: -38.515 };
+const groupLocation: Coordinates = { lat: -4.9377, lng: -37.9746 };
 const groupedAthletes = [
   { name: "Luana Martins", initials: "LM" },
   { name: "Caio Alves", initials: "CA" },
